@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "mqtt": "^5.3.4",
+    "mysql2": "^3.7.0",
+    "paho-mqtt": "^1.1.0",
+    "readable-stream": "^4.5.2",
+    "stream-browserify": "^3.0.0",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@types/mqtt": "^2.5.0",
+    "@types/paho-mqtt": "^1.0.10",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
